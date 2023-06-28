@@ -11,3 +11,13 @@ Accurate predictions of power plant output are essential for efficient operation
 ## Data Collection
 [Data Set](https://archive.ics.uci.edu/ml/datasets/combined+cycle+power+plant)
 
+![output1](https://github.com/ankurmishra2502/AppliedDataScience--SmartInternz/assets/77336311/8a2491dc-4e7c-462e-9975-abe776e840ff)
+
+![output2](https://github.com/ankurmishra2502/AppliedDataScience--SmartInternz/assets/77336311/1aa72218-e48b-4024-9995-dcf3e9af599a)
+
+![output3](https://github.com/ankurmishra2502/AppliedDataScience--SmartInternz/assets/77336311/4025484c-8799-43c0-8155-854b750ec3a9)
+
+![output4](https://github.com/ankurmishra2502/AppliedDataScience--SmartInternz/assets/77336311/76092b46-9aa4-4883-ae8b-bfb5cf306c60)
+
+## Video
+[link]()

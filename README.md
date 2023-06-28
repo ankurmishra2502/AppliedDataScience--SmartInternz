@@ -9,4 +9,5 @@ The objective of this project is to develop a predictive model that can estimate
 Accurate predictions of power plant output are essential for efficient operation and planning in the energy sector. By utilizing machine learning techniques, we can leverage historical data to build models that can estimate the electrical output based on input parameters. This can help power plant operators optimize their operations, forecast energy production, and make informed decisions regarding resource allocation and maintenance.
 
 ## Data Collection
+[Data Set](https://archive.ics.uci.edu/ml/datasets/combined+cycle+power+plant)
 

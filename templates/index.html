@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Combined Cycle Power Plant Prediction</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    form {
+      text-align: center;
+      margin-top: 40px;
+    }
+
+    .form-group {
+      margin-bottom: 20px;
+    }
+
+    label {
+      display: block;
+    }
+
+    input[type="number"] {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+    }
+
+    .submit-btn {
+      display: block;
+      margin: 0 auto;
+      background-color: #4CAF50;
+      color: white;
+      padding: 10px 20px;
+      text-decoration: none;
+      border-radius: 4px;
+      transition: background-color 0.3s ease;
+    }
+
+    .submit-btn:hover {
+      background-color: #45a049;
+    }
+
+    .result-box {
+      margin-top: 40px;
+      text-align: center;
+      border: 1px solid #ccc;
+      padding: 20px;
+      border-radius: 4px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+  <h1>Prediction Form</h1>
+  <form action= "{{url_for('submit')}}" method="post">
+    <div class="form-group">
+    <label for="temperature">Temperature:</label>
+    <input type="number" name="temperature" id="temperature" required><br>
+  </div>
+    <div class="form-group">
+    <label for="vacuum">Vacuum:</label>
+    <input type="number" name="vacuum" id="vacuum" required><br>
+  </div>
+    <div class="form-group">
+    <label for="pressure">Pressure:</label>
+    <input type="number" name="pressure" id="pressure" required><br>
+  </div>
+    <div class="form-group">
+    <label for="humidity">Humidity:</label>
+    <input type="number" name="humidity" id="humidity" required><br>
+  </div>
+
+    <input type="submit" class="submit-btn"  value="Predict">
+  </form>
+  <h4 >{% if prediction_text %}
+    <p>Prediction of electrical output is:</p>
+    <h4>{{ prediction_text }}</h4>
+  {% endif %}
+</h4>
+</div>
+</body>
+
+</html>
+

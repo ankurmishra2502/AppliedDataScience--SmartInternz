@@ -21,3 +21,5 @@ Accurate predictions of power plant output are essential for efficient operation
 
 ## Video
 [link](https://drive.google.com/file/d/1c2i2PKRk1-XPODsx8m7ckcMFsCIWd-tS/view?usp=sharing)
+## Project File
+[link](https://shorturl.at/rvQ13)

@@ -19,7 +19,5 @@ Accurate predictions of power plant output are essential for efficient operation
 
 ![output4](https://github.com/ankurmishra2502/AppliedDataScience--SmartInternz/assets/77336311/76092b46-9aa4-4883-ae8b-bfb5cf306c60)
 
-## Video
-[link](https://drive.google.com/file/d/1c2i2PKRk1-XPODsx8m7ckcMFsCIWd-tS/view?usp=sharing)
 ## Project File
 [link](https://shorturl.at/rvQ13)
